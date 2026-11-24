@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#7e57c2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>أسواق للتطوير العقاري | Aswaq Developments - الإسكندرية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span>أسواق <small>Aswaq Developments</small></span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active">الرئيسية</a>
+                <a href="#about" class="nav-link">من نحن</a>
+                <a href="#experience" class="nav-link">خبرتنا</a>
+                <a href="#projects" class="nav-link">المشاريع الساحلية</a>
+                <a href="#marina" class="nav-link">جولات المارينا</a>
+                <a href="#lifestyle" class="nav-link">نمط الحياة البحري</a>
+                <a href="#contact" class="btn btn-primary btn-nav">تواصل معنا</a>
+            </nav>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge-pill">
+                    <i class="fas fa-water"></i> واجهة الإسكندرية البحرية الفاخرة
+                </div>
+                <h1>نصنع مستقبل <span class="gradient-text">الحياة الساحلية</span> في الإسكندرية</h1>
+                <p>خمس سنوات من الريادة والابتكار العقاري، قدمنا خلالها 20 مشروعاُ استثنائياً تجمع بين روعة الإطلالات على الخليج، وتجارب المارينا الفاخرة، والتصميم المعاصر.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">استكشف المشاريع <i class="fas fa-arrow-left"></i></a>
+                    <a href="#marina" class="btn btn-outline">جولة المارينا 3D <i class="fas fa-cube"></i></a>
+                </div>
+                <div class="hero-stats-row">
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>سنوات من التميز</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3>20</h3>
+                        <p>مشروعاً ناجحاً</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>إطلالات بحرية</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-3d-visual">
+                <div class="scene">
+                    <div class="cube" id="rotatingCube">
+                        <div class="cube-face front">
+                            <div class="face-content">
+                                <i class="fas fa-building"></i>
+                                <span>أبراج أسواق الفاخرة</span>
+                            </div>
+                        </div>
+                        <div class="cube-face back">
+                            <div class="face-content">
+                                <i class="fas fa-anchor"></i>
+                                <span>مرسى اليخوت والمارينا</span>
+                            </div>
+                        </div>
+                        <div class="cube-face right">
+                            <div class="face-content">
+                                <i class="fas fa-water"></i>
+                                <span>إطلالات الخليج الساحرة</span>
+                            </div>
+                        </div>
+                        <div class="cube-face left">
+                            <div class="face-content">
+                                <i class="fas fa-umbrella-beach"></i>
+                                <span>نمط الحياة الساحلي</span>
+                            </div>
+                        </div>
+                        <div class="cube-face top">
+                            <div class="face-content">
+                                <i class="fas fa-star"></i>
+                                <span>تصميم عالمي 3D</span>
+                            </div>
+                        </div>
+                        <div class="cube-face bottom">
+                            <div class="face-content">
+                                <i class="fas fa-city"></i>
+                                <span>واجهة الإسكندرية</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cube-shadow"></div>
+                <div class="floating-badge badge-1">
+                    <i class="fas fa-compass"></i> إطلالة مباشرة على البحر المتوسط
+                </div>
+                <div class="floating-badge badge-2">
+                    <i class="fas fa-gem"></i> تشطيبات فندقية راقية
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle">من نحن</span>
+                <h2>شركة أسواق للتطوير العقاري</h2>
+                <p>نرسم آفاقاً جديدة للعمارة الساحلية برؤية تجمع بين فخامة الإسكندرية وابتكار المستقبل</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="icon-box">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>رؤية هندسية مبتكرة</h3>
+                    <p>نعتمد أحدث تقنيات التصميم ثلاثي الأبعاد والتجارب البصرية لنقدم لجمهورنا عقارات ساحلية تنبض بالحياة والفخامة.</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon-box">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>مواقع استراتيجية فريدة</h3>
+                    <p>تتمحور مشاريعنا حول كورنيش الإسكندرية والخليج، لتضمن لكل عميل إطلالة بنوراموية ساحرة تفتح آفاقاً واسعة للراحة والتميز.</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon-box">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>ثقة وموثوقية ممتدة</h3>
+                    <p>على مدار 5 سنوات، بنينا جسوراً متينة من الثقة مع عملائنا عبر تسليم 20 مشروعاً في مواعيدها وبأعلى معايير الجودة العالمية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Stats Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="experience-wrapper">
+                <div class="experience-content">
+                    <span class="subtitle">مسيرة الإنجازات</span>
+                    <h2>5 سنوات من الريادة و20 مشروعاً في قلب الإسكندرية</h2>
+                    <p>استطاعت شركة "أسواق" أن تحفر اسمها بحروف من نور في قطاع التطوير العقاري الساحلي. من خلال التركيز على الواجهة البحرية، وخليج الإسكندرية، وابتكار مجتمعات عمرانية متكاملة تلبي تطلعات النخبة الباحثة عن الرفاهية والهدوء.</p>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> مشاريع مصممة خصيصاً لتحمل أجواء الساحل مع ضمان متانة استثنائية.</li>
+                        <li><i class="fas fa-check-circle"></i> تصميمات داخلية وخارجية بلمسات بنفسجية ووردية تعكس الذوق الرفيع.</li>
+                        <li><i class="fas fa-check-circle"></i> خدمات إدارة عقارات متكاملة على مدار الساعة طوال أيام الأسبوع.</li>
+                    </ul>
+                </div>
+                <div class="experience-visual">
+                    <div class="glass-box">
+                        <div class="stat-box-large">
+                            <span class="number">05</span>
+                            <span class="label">سنوات خبرة عريقة</span>
+                        </div>
+                        <div class="stat-box-large">
+                            <span class="number">20</span>
+                            <span class="label">مشروعاً ناجحاً ومسلماً</span>
+                        </div>
+                        <div class="stat-box-large">
+                            <span class="number">100%</span>
+                            <span class="label">إطلالات خليجية وبحرية</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Coastal Property 3D Experience) -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle">محفظة المشاريع</span>
+                <h2>عقارات ساحلية بتجربة 3D متطورة</h2>
+                <p>اكتشف أرقى الوحدات السكنية المطلة على البحر المتوسط وخليج الإسكندرية</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-badge">متاح للجزئية الفاخرة</div>
+                        <div class="project-mockup cubic-bg-1">
+                            <i class="fas fa-water fa-3x"></i>
+                        </div>
+                        <div class="overlay-action">
+                            <button class="btn-preview" onclick="openModal('أبراج اللؤلؤة البحرية', 'إطلالة مباشرة على كورنيش الإسكندرية، شقق فندقية بمسطحات واسعة وتشطيبات بنفسجية فاخرة.')">عرض التفاصيل 3D</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="tag">خليج الإسكندرية</div>
+                        <h3>أبراج اللؤلؤة البحرية</h3>
+                        <p>مشروع سكني متكامل يجمع بين رفاهية السكن وهدوء الأمواج.</p>
+                        <div class="project-footer">
+                            <span><i class="fas fa-bed"></i> 3-4 غرف</span>
+                            <span><i class="fas fa-ruler-combined"></i> تبدأ من 180 م²</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-badge">مرسى اليخوت</div>
+                        <div class="project-mockup cubic-bg-2">
+                            <i class="fas fa-anchor fa-3x"></i>
+                        </div>
+                        <div class="overlay-action">
+                            <button class="btn-preview" onclick="openModal('مارينا باي ريزيدنس', 'يقع مباشرة على مرسى اليخوت مع خدمات ترفيهية ومطاعم عالمية تناسب عشاق البحر.')">عرض التفاصيل 3D</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="tag">المارينا واليخوت</div>
+                        <h3>مارينا باي ريزيدنس</h3>
+                        <p>تجربة معمارية مستوحاة من أجواء المنتجعات العالمية في قلب عروس البحر المتوسط.</p>
+                        <div class="project-footer">
+                            <span><i class="fas fa-bed"></i> 2-3 غرف</span>
+                            <span><i class="fas fa-ruler-combined"></i> تبدأ من 140 م²</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-badge">إطلالة بانورامية</div>
+                        <div class="project-mockup cubic-bg-3">
+                            <i class="fas fa-city fa-3x"></i>
+                        </div>
+                        <div class="overlay-action">
+                            <button class="btn-preview" onclick="openModal('أسواق بلازا الكورنيش', 'أبراج تجارية وسكنية فاخرة تطل على الخليج مباشرة مع تصميم خارجي فريد باللونين البنفسجي والوردي.')">عرض التفاصيل 3D</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="tag">الكورنيش الرئيسي</div>
+                        <h3>أسواق بلازا الكورنيش</h3>
+                        <p>معلم معماري جديد يزين واجهة الإسكندرية البحرية بإضاءات وتصميم عصري.</p>
+                        <div class="project-footer">
+                            <span><i class="fas fa-bed"></i> دوبلكس وبنتهاوس</span>
+                            <span><i class="fas fa-ruler-combined"></i> تبدأ من 250 م²</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marina Tours Section -->
+    <section id="marina" class="marina-section section">
+        <div class="container">
+            <div class="marina-box">
+                <div class="marina-content">
+                    <span class="subtitle">عالم المارينا</span>
+                    <h2>جولات مارينا افتراضية وتجارب بصرية ساحرة</h2>
+                    <p>استمتع برؤية تفاعلية ثلاثية الأبعاد لمشاهدة المارينا، مسارات اليخوت، والممرات البحرية المتاحة أمام عقارات أسواق. صُممت كل زاوية لتعكس روعة الحياة الساحلية.</p>
+                    <div class="marina-features">
+                        <div class="m-feat">
+                            <i class="fas fa-ship"></i>
+                            <div>
+                                <h4>مرسى لليخوت الخاصة</h4>
+                                <p>خدمات إرساء وترفيه متكاملة.</p>
+                            </div>
+                        </div>
+                        <div class="m-feat">
+                            <i class="fas fa-binoculars"></i>
+                            <div>
+                                <h4>رؤية بانورامية 360°</h4>
+                                <p>مناظر غير منقطعة لخليج الإسكندرية.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="marina-interactive-cube">
+                    <div class="mini-cube-container">
+                        <div class="cube-interactive" id="interactiveCube">
+                            <div class="c-face front">مارينا الإسكندرية</div>
+                            <div class="c-face back">اليخوت الفاخرة</div>
+                            <div class="c-face right">الكورنيش البحري</div>
+                            <div class="c-face left">الخليج الساحر</div>
+                            <div class="c-face top">أسواق العقارية</div>
+                            <div class="c-face bottom">20 مشروعاً</div>
+                        </div>
+                    </div>
+                    <p class="hint-text"><i class="fas fa-hand-pointer"></i> اسحب أو انتظر الدوران التلقائي (18 ثانية)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seaside Lifestyle Section -->
+    <section id="lifestyle" class="lifestyle section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle">نمط الحياة</span>
+                <h2>عش تجربة الساحل الأنيق والراقي</h2>
+                <p>مزيج فريد من الهدوء البحري والرفاهية العصرية المصممة خصيصاً لك ولعائلتك</p>
+            </div>
+
+            <div class="lifestyle-grid">
+                <div class="lifestyle-card">
+                    <div class="ls-icon"><i class="fas fa-coffee"></i></div>
+                    <h3>مقاهي ومطاعم المارينا</h3>
+                    <p>أرقى الوجهات المطلة على البحر لتستمتع بأوقاتك برفقة الأصدقاء والعائلة وسط أجواء ساحلية ساحرة.</p>
+                </div>
+                <div class="lifestyle-card">
+                    <div class="ls-icon"><i class="fas fa-swimmer"></i></div>
+                    <h3>نوادي صحية ومسابح</h3>
+                    <p>مرافق رياضية متكاملة تطل مباشرة على مياه الخليج لتعزز من صحتك وحيويتك كل يوم.</p>
+                </div>
+                <div class="lifestyle-card">
+                    <div class="ls-icon"><i class="fas fa-sun"></i></div>
+                    <h3>شواطئ خاصة وممشى</h3>
+                    <p>ممشى بحري خاص ومناطق استرخاء مصممة بعناية فائقة لتوفير الخصوصية والراحة التامة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Inquiry Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="subtitle">تواصل معنا</span>
+                    <h2>احجز وحدتك الساحلية الآن مع شركة أسواق</h2>
+                    <p>فريق المبيعات جاهز للرد على استفساراتكم وتقديم جولات افتراضية أو ميدانية لمشاريعنا في الإسكندرية.</p>
+                    
+                    <div class="contact-details">
+                        <div class="cd-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>المقر الرئيسي</h4>
+                                <p>كورنيش الإسكندرية، مصر</p>
+                            </div>
+                        </div>
+                        <div class="cd-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>اتصل بنا</h4>
+                                <p>+20 3 555 0192 / +20 10 999 8887</p>
+                            </div>
+                        </div>
+                        <div class="cd-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>البريد الإلكتروني</h4>
+                                <p>info@aswaq-developments.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-card">
+                    <h3>طلب استشارة عقارية</h3>
+                    <form id="inquiryForm">
+                        <div class="form-group">
+                            <label>الاسم الكامل</label>
+                            <input type="text" required placeholder="أدخل اسمك الكريم">
+                        </div>
+                        <div class="form-group">
+                            <label>رقم الهاتف</label>
+                            <input type="tel" required placeholder="010xxxxxxxx">
+                        </div>
+                        <div class="form-group">
+                            <label>المشروع المهتم به</label>
+                            <select>
+                                <option>أبراج اللؤلؤة البحرية</option>
+                                <option>مارينا باي ريزيدنس</option>
+                                <option>أسواق بلازا الكورنيش</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>الرسالة أو الاستفسار</label>
+                            <textarea rows="4" placeholder="اكتب تفاصيل طلبك..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">إرسال الطلب <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="#" class="logo">
+                    <span>أسواق <small>Aswaq Developments</small></span>
+                </a>
+                <p>الشركة الرائدة في التطوير العقاري الساحلي في الإسكندرية. خبرة 5 سنوات، 20 مشروعاً، وإطلالات لا تُضاهى على الخليج والمارينا.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#hero">الرئيسية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#experience">مسيرة الخبرة</a></li>
+                    <li><a href="#projects">المشاريع الساحلية</a></li>
+                    <li><a href="#marina">جولات المارينا</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>المشاريع</h4>
+                <ul>
+                    <li><a href="#projects">أبراج اللؤلؤة البحرية</a></li>
+                    <li><a href="#projects">مارينا باي ريزيدنس</a></li>
+                    <li><a href="#projects">أسواق بلازا الكورنيش</a></li>
+                    <li><a href="#lifestyle">نمط الحياة البحري</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>النشرة البريدية</h4>
+                <p>اشترك لتصلك أحدث عروض الوحدات الساحلية وتحديثات المشاريع.</p>
+                <div class="newsletter-box">
+                    <input type="email" placeholder="بريدك الإلكتروني">
+                    <button><i class="fas fa-chevron-left"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>جميع الحقوق محفوظة © 2026 شركة أسواق للتطوير العقاري (Aswaq Developments)</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Project Details -->
+    <div class="modal-overlay" id="projectModal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()">&times;</button>
+            <div class="modal-icon-header">
+                <i class="fas fa-cube"></i>
+            </div>
+            <h3 id="modalTitle">عنوان المشروع</h3>
+            <p id="modalDesc">تفاصيل المشروع الساحلي...</p>
+            <div class="modal-features-list">
+                <span><i class="fas fa-check"></i> إطلالة بحرية كاملة</span>
+                <span><i class="fas fa-check"></i> تشطيبات بنفسجية فاخرة</span>
+                <span><i class="fas fa-check"></i> أمن وحراسة 24/7</span>
+            </div>
+            <div class="modal-actions">
+                <a href="#contact" class="btn btn-primary" onclick="closeModal()">احجز استشارة الآن</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
